@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.stellarmc.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"MixinFogRenderer",
+		"MixinRenderSection"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

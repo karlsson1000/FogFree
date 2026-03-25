@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "fogfree",
+	"version": "${version}",
+	"name": "FogFree",
+	"description": "Removes fog and chunk fade-in from the game.",
+	"authors": [
+		"karlsson1000"
+	],
+	"license": "MIT",
+	"icon": "assets/fogfree/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"dev.stellarmc.FogFree"
+		]
+	},
+	"mixins": [
+		"fogfree.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1",
+		"java": ">=25"
+	}
+}
